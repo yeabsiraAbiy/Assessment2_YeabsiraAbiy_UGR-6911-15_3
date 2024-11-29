@@ -1,0 +1,72 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    flex: 1; 
+    max-width: 100%;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+
+section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#ContactUs {
+    flex: 2; 
+}
+
+aside {
+    flex: 1;
+    background-color:white;
+    padding: 15px;
+}
+
+h2 {
+    color: rgb(93, 175, 93);
+    margin-bottom: 10px;
+}
+
+p {
+    color: #2c2c2c;
+    line-height: 1.5;
+}
+
+.inputBox {
+    margin-bottom: 20px;
+    position: relative;
+    
+}
+
+.inputBox input,
+.inputBox textarea {
+    width: 75%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.inputBox input:focus,
+.inputBox textarea:focus {
+    border-color: #66afe9;
+    outline: none;
+}
+
+.inputBox span {
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    font-size: 12px;
+    color: #999;
+}
+
+.inputBox textarea {
+    height: 100px;
+    resize: none;
+}
+
